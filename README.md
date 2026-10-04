@@ -1,0 +1,7 @@
+# ANK Massage a BodySense — neoficiálny návrh homepage
+
+> Neoficiálny návrh — nie je to oficiálny web podniku. Ukážka od [webdavid.sk](https://webdavid.sk); objednávky ani rezervácie tu nefungujú.
+
+ANK Massage a BodySense
+
+Statická stránka bez build kroku: `index.html` + `assets/`.

@@ -1,0 +1,309 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>ANK Massage a BodySense · masáže a fyzioterapia v Trenčíne — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh homepage pre ANK Massage a BodySense, Námestie sv. Anny 355/15, Trenčín — masáže a fyzioterapia. Ukážka od webdavid.sk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EBEFEC;--paper-2:#E1E7E3;--plate:#F5F7F4;
+  --ink:#1B2A35;--ink-soft:#4A5A66;--rule:rgba(27,42,53,.18);
+  --muscle:#E8CBC7;--fiber:#8E3B46;--accent:#8E3B46;--accent-dk:#6E2934;
+  --bone:#F3EEE6;--night:#1B2A35;--night-2:#24394A;
+  --serif:"Crimson Pro",Georgia,serif;--plex:"IBM Plex Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--plex)}
+img{max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.c{width:min(1160px,100% - 48px);margin-inline:auto}
+.strip{background:var(--ink);color:var(--paper);font:400 13px/1.45 var(--plex);text-align:center;padding:9px 16px}
+.strip b{font-weight:600}
+
+.mast{border-bottom:1px solid var(--ink)}
+.mast .c{display:flex;align-items:center;gap:28px;min-height:74px}
+.brand{margin-right:auto;text-decoration:none;display:flex;flex-direction:column;line-height:1.05}
+.brand b{font:600 24px/1 var(--serif);letter-spacing:.01em}
+.brand i{font:italic 400 15px/1.2 var(--serif);color:var(--ink-soft)}
+.mast nav{display:flex;gap:24px}
+.mast nav a,.mast .tel{font:500 14px/1 var(--plex);text-decoration:none;padding:6px 0;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s}
+.mast nav a:hover,.mast .tel:hover{background-size:100% 1px}
+.mast .tel{font-variant-numeric:tabular-nums}
+.act{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;font:500 15px/1 var(--plex);text-decoration:none;background:var(--accent);color:#fff;border:1px solid var(--accent);transition:background .2s}
+.act:hover{background:var(--accent-dk)}
+.act.o{background:transparent;color:var(--ink);border-color:var(--ink)}
+.act.o:hover{background:var(--ink);color:var(--paper)}
+
+/* plate hero */
+.plate-hero{padding:40px 0 64px}
+.plate-hero .c{display:grid;grid-template-columns:1fr 1.02fr;gap:56px;align-items:start}
+.tabno{display:flex;justify-content:space-between;font:500 11.5px/1.4 var(--plex);letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:34px}
+h1{font:500 clamp(46px,6vw,80px)/.98 var(--serif);letter-spacing:-.015em}
+h1 i{font-weight:400;color:var(--accent)}
+.lede{font:400 21px/1.5 var(--serif);margin-top:24px;max-width:30em;color:#2B3B47}
+.lede q{quotes:"„" "“";font-style:italic}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 36px}
+.legend{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
+.legend div{padding:14px 16px 0 0}
+.legend div+div{padding-left:16px;border-left:1px solid var(--rule)}
+.legend dt{font:500 11px/1.3 var(--plex);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)}
+.legend dd{font:600 19px/1.25 var(--plex);font-variant-numeric:tabular-nums;margin-top:6px}
+.legend dd small{display:block;font:400 13px/1.35 var(--plex);color:var(--ink-soft);margin-top:3px}
+
+.plate{background:var(--plate);border:1px solid var(--ink);outline:1px solid var(--ink);outline-offset:-7px;padding:22px 22px 16px}
+.plate svg{display:block;width:100%;height:auto}
+.plate figcaption{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--rule);margin-top:6px;padding-top:10px;font:italic 400 16px/1.35 var(--serif);color:var(--ink-soft)}
+.plate figcaption b{font:500 11px/1.6 var(--plex);letter-spacing:.18em;text-transform:uppercase;font-style:normal;color:var(--ink)}
+.lbl{font:400 11.5px var(--plex);fill:#1B2A35}
+.lbl-i{font:italic 400 14px var(--serif);fill:#4A5A66}
+.lead-l{stroke:#1B2A35;stroke-width:.7;fill:none}
+.dot{fill:#8E3B46}
+
+/* tab II: price plate (money block) */
+.tab2{background:var(--night);color:var(--bone);padding:80px 0 86px}
+.tab2 .tabno{color:rgba(243,238,230,.65);border-color:rgba(243,238,230,.2)}
+.tab2-g{display:grid;grid-template-columns:.8fr 1.4fr;gap:60px;align-items:start}
+h2{font:500 clamp(36px,4.4vw,56px)/1.02 var(--serif);letter-spacing:-.01em}
+h2 i{font-weight:400}
+.tab2 h2 i{color:#E8CBC7}
+.tab2 .side p{color:rgba(243,238,230,.78);margin-top:18px;font-size:15.5px}
+.tab2 .side .act{margin-top:26px;background:var(--bone);color:var(--night);border-color:var(--bone)}
+.tab2 .side .act:hover{background:#fff}
+.voucher{display:inline-block;margin-top:24px;border:1px dashed rgba(243,238,230,.5);padding:10px 14px;font:500 12px/1.45 var(--plex);letter-spacing:.06em;color:#E8CBC7}
+.rows{border-top:1px solid rgba(243,238,230,.85)}
+.row{display:grid;grid-template-columns:1fr auto auto;gap:6px 22px;align-items:baseline;padding:20px 0;border-bottom:1px solid rgba(243,238,230,.18)}
+.row .fig{font:italic 400 15px/1 var(--serif);color:rgba(243,238,230,.6)}
+.row h3{font:500 25px/1.15 var(--serif)}
+.row .min{font:400 14px/1 var(--plex);color:rgba(243,238,230,.7);font-variant-numeric:tabular-nums;white-space:nowrap}
+.row .pr{font:600 26px/1 var(--plex);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;min-width:110px}
+.row .pr s{display:block;font:400 13px/1.4 var(--plex);color:rgba(243,238,230,.55);margin-top:5px}
+.fine{margin-top:18px;font-size:13px;color:rgba(243,238,230,.62)}
+
+/* team legend */
+.team{padding:86px 0 70px}
+.team-g{display:grid;grid-template-columns:1fr 1.25fr;gap:60px;align-items:start}
+.team p.t{font:400 20px/1.55 var(--serif);margin-top:20px;color:#2B3B47;max-width:30em}
+.key{list-style:none;border-top:1px solid var(--ink)}
+.key li{display:grid;grid-template-columns:44px 1fr;gap:4px 18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule)}
+.key .k{width:36px;height:36px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;font:italic 500 18px/1 var(--serif)}
+.key h3{font:500 24px/1.2 var(--serif)}
+.key p{font-size:15px;color:var(--ink-soft)}
+
+/* hours + contact */
+.where{background:var(--paper-2);border-top:1px solid var(--ink);padding:76px 0 84px}
+.where-g{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin-top:36px;border-top:1px solid var(--ink)}
+.where-g>div{padding:26px 28px 6px 0}
+.where-g>div+div{padding-left:28px;border-left:1px solid var(--rule)}
+.cap{font:500 11px/1.3 var(--plex);letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:12px}
+.hrs{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.hrs td{padding:9px 0;border-bottom:1px solid var(--rule);font-size:16px}
+.hrs td+td{text-align:right;font-weight:500}
+.hrs tr.off td{color:var(--ink-soft);font-weight:400}
+.small{font-size:13.5px;color:var(--ink-soft);margin-top:12px}
+address{font-style:normal;font:500 23px/1.35 var(--serif)}
+.ln{display:flex;align-items:center;justify-content:space-between;min-height:46px;border-bottom:1px solid var(--rule);text-decoration:none;font-weight:500;font-variant-numeric:tabular-nums;gap:12px}
+.ln span{font-weight:400;font-size:13px;color:var(--ink-soft)}
+.ln:hover{color:var(--accent)}
+.ln.big{font:600 20px/1 var(--plex)}
+
+footer{border-top:1px solid var(--ink);padding:24px 0 30px;font-size:13px;color:var(--ink-soft)}
+footer .c{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:40;display:none;grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(235,239,236,.97);border-top:1px solid var(--ink)}
+.dock a{min-height:50px;display:flex;align-items:center;justify-content:center;font:500 15.5px/1 var(--plex);text-decoration:none}
+.dock a:first-child{background:var(--accent);color:#fff}
+.dock a:last-child{border:1px solid var(--ink)}
+
+@media (max-width:980px){
+  .mast nav{display:none}
+  .plate-hero .c,.tab2-g,.team-g{grid-template-columns:1fr}
+  .plate{max-width:620px}
+  .where-g{grid-template-columns:1fr 1fr}.where-g>div:last-child{grid-column:1/-1;border-left:0;padding-left:0;border-top:1px solid var(--rule)}
+}
+@media (max-width:640px){
+  body{font-size:15.5px;padding-bottom:calc(74px + env(safe-area-inset-bottom))}
+  .c{width:calc(100% - 32px)}
+  .mast .c{min-height:64px;gap:12px}
+  .mast .tel{display:none}
+  .brand b{font-size:21px}.brand i{font-size:14px}
+  .mast .act{min-height:44px;padding:0 16px;font-size:14px}
+  .plate-hero{padding:26px 0 48px}
+  .plate-hero .c{gap:36px}
+  .tabno{margin-bottom:22px;font-size:10.5px;letter-spacing:.14em}
+  .lede{font-size:19px}
+  .btns .act{flex:1 1 100%}
+  .legend{grid-template-columns:1fr 1fr}
+  .legend div:nth-child(3){grid-column:1/-1;border-left:0;padding-left:0;border-top:1px solid var(--rule);margin-top:14px}
+  .plate{padding:10px 6px 10px;outline-offset:-4px;margin-inline:-6px}
+  .lbl{font-size:14.5px}.lbl-i{font-size:16.5px}
+  .plate figcaption{flex-direction:column;gap:2px;font-size:15px}
+  .tab2{padding:56px 0 60px}
+  .tab2-g{gap:30px}
+  .row{grid-template-columns:1fr auto;gap:4px 14px;padding:16px 0}
+  .row h3{font-size:22px}
+  .row .min{grid-column:1;grid-row:2}
+  .row .pr{grid-column:2;grid-row:1/span 2;font-size:23px;min-width:0}
+  .team{padding:60px 0 50px}.team-g{gap:30px}
+  .team p.t{font-size:18px}
+  .where{padding:56px 0 60px}
+  .where-g{grid-template-columns:1fr}.where-g>div,.where-g>div+div{padding:22px 0 8px;border-left:0}.where-g>div+div{border-top:1px solid var(--rule)}
+  .dock{display:grid}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="strip"><b>Neoficiálny návrh</b> — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div>
+
+<header class="mast">
+  <div class="c">
+    <a class="brand" href="#"><b>ANK Massage</b><i>a BodySense</i></a>
+    <nav aria-label="Hlavná navigácia"><a href="#masaze">Masáže</a><a href="#tim">Kto vás ošetrí</a><a href="#kontakt">Hodiny a kontakt</a></nav>
+    <a class="tel" href="tel:+421915407366">0915 407 366</a>
+    <a class="act" href="tel:+421915407366">Objednať sa</a>
+  </div>
+</header>
+
+<main>
+<section class="plate-hero" aria-labelledby="h1">
+  <div class="c">
+    <div>
+      <p class="tabno"><span>Tab. I</span><span>Trenčín · Nám. sv. Anny</span></p>
+      <h1 id="h1">ANK Massage <i>a BodySense</i></h1>
+      <p class="lede">Masáže a terapia v centre Trenčína — od <q>dvoch fyzioterapeutiek a vyškoleného maséra</q>, so zameraním na prevenciu a riešenie problémov pohybového aparátu.</p>
+      <div class="btns">
+        <a class="act" href="tel:+421915407366">Zavolať 0915 407 366</a>
+        <a class="act o" href="#masaze">Ponuka masáží</a>
+      </div>
+      <dl class="legend">
+        <div><dt>Hodnotenie</dt><dd>4,6 / 5<small>Zľavomat · 41 hodnotení</small></dd></div>
+        <div><dt>Po – Pi</dt><dd>16:00–21:00<small>podľa Zľavomatu, overiť</small></dd></div>
+        <div><dt>Kde</dt><dd>V centre<small>Námestie sv. Anny 355/15</small></dd></div>
+      </dl>
+    </div>
+
+    <figure class="plate">
+      <svg viewBox="0 0 480 446" role="img" aria-labelledby="svgt">
+        <title id="svgt">Líniová kresba svalov chrbta a šije, pohľad zozadu, s popiskami ako v anatomickom atlase</title>
+        <defs>
+          <pattern id="fa" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><rect width="5" height="5" fill="#E8CBC7"/><line x1="0" y1="0" x2="0" y2="5" stroke="#8E3B46" stroke-opacity=".35" stroke-width=".8"/></pattern>
+          <pattern id="fb" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)"><rect width="5" height="5" fill="#E8CBC7"/><line x1="0" y1="0" x2="0" y2="5" stroke="#8E3B46" stroke-opacity=".35" stroke-width=".8"/></pattern>
+          <pattern id="fv" width="4" height="5" patternUnits="userSpaceOnUse"><rect width="4" height="5" fill="#E1B9B4"/><line x1="0" y1="0" x2="0" y2="5" stroke="#8E3B46" stroke-opacity=".4" stroke-width=".8"/></pattern>
+          <pattern id="fl" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(62)"><rect width="5" height="5" fill="#EDD6D2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#8E3B46" stroke-opacity=".3" stroke-width=".8"/></pattern>
+          <pattern id="fr" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-62)"><rect width="5" height="5" fill="#EDD6D2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#8E3B46" stroke-opacity=".3" stroke-width=".8"/></pattern>
+          <pattern id="fd" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(80)"><rect width="4" height="4" fill="#E1B9B4"/><line x1="0" y1="0" x2="0" y2="4" stroke="#8E3B46" stroke-opacity=".4" stroke-width=".8"/></pattern>
+        </defs>
+        <g transform="translate(80 30) scale(.8)" stroke="#8E3B46" stroke-width="1.3" stroke-linejoin="round">
+          <!-- silhouette -->
+          <path d="M200 14 C226 14 242 36 242 64 C242 90 232 106 224 112 L228 146 C258 158 300 160 322 176 C340 190 344 214 342 240 C340 262 334 276 326 284 L310 288 C304 330 298 370 296 404 C294 440 298 474 300 506 L100 506 C102 474 106 440 104 404 C102 370 96 330 90 288 L74 284 C66 276 60 262 58 240 C56 214 60 190 78 176 C100 160 142 158 172 146 L176 112 C168 106 158 90 158 64 C158 36 174 14 200 14 Z" fill="#F7EEEA"/>
+          <!-- latissimus -->
+          <path d="M132 300 C116 300 104 298 96 292 C100 340 106 392 112 444 C150 430 182 404 200 372 C186 346 160 318 132 300 Z" fill="url(#fl)"/>
+          <path d="M268 300 C284 300 296 298 304 292 C300 340 294 392 288 444 C250 430 218 404 200 372 C214 346 240 318 268 300 Z" fill="url(#fr)"/>
+          <!-- erector spinae -->
+          <path d="M188 236 C182 300 180 380 184 500 L198 500 L198 236 Z M212 236 C218 300 220 380 216 500 L202 500 L202 236 Z" fill="url(#fv)"/>
+          <!-- infraspinatus -->
+          <path d="M116 206 C136 210 158 220 172 232 C164 262 150 288 134 300 C120 278 112 244 116 206 Z" fill="url(#fb)"/>
+          <path d="M284 206 C264 210 242 220 228 232 C236 262 250 288 266 300 C280 278 288 244 284 206 Z" fill="url(#fa)"/>
+          <!-- trapezius -->
+          <path d="M200 66 C198 98 188 136 154 156 C132 166 106 170 92 178 C122 186 152 198 170 216 C184 244 194 292 200 336 C206 292 216 244 230 216 C248 198 278 186 308 178 C294 170 268 166 246 156 C212 136 202 98 200 66 Z" fill="url(#fa)"/>
+          <path d="M200 66 C202 98 212 136 246 156 C268 166 294 170 308 178 C278 186 248 198 230 216 C216 244 206 292 200 336 Z" fill="url(#fb)"/>
+          <!-- deltoid -->
+          <path d="M92 178 C74 186 62 208 62 236 C64 258 70 272 78 282 C88 260 100 232 118 206 C110 194 102 184 92 178 Z" fill="url(#fd)"/>
+          <path d="M308 178 C326 186 338 208 338 236 C336 258 330 272 322 282 C312 260 300 232 282 206 C290 194 298 184 308 178 Z" fill="url(#fd)"/>
+          <!-- spine -->
+          <path d="M200 70 V500" stroke-dasharray="2 5" stroke-width="1.6" fill="none"/>
+          <!-- neck (splenius) -->
+          <path d="M186 108 C190 96 194 84 198 72 M214 108 C210 96 206 84 202 72" fill="none" stroke-width=".9"/>
+        </g>
+        <!-- labels -->
+        <g>
+          <circle class="dot" cx="235.2" cy="110" r="2.6"/><path class="lead-l" d="M235.2 110 H8"/><text class="lbl" x="8" y="103.0">Šija</text><text class="lbl-i" x="8" y="127.0">m. splenius</text>
+          <circle class="dot" cx="145.6" cy="214" r="2.6"/><path class="lead-l" d="M145.6 214 H8"/><text class="lbl" x="8" y="207.0">Rameno</text><text class="lbl-i" x="8" y="231.0">m. deltoideus</text>
+          <circle class="dot" cx="192" cy="350" r="2.6"/><path class="lead-l" d="M192 350 H8"/><text class="lbl" x="8" y="343.0">Bok chrbta</text><text class="lbl-i" x="8" y="367.0">m. latissimus dorsi</text>
+          <circle class="dot" cx="273.6" cy="167.6" r="2.6"/><path class="lead-l" d="M273.6 167.6 L303.6 130 H472"/><text class="lbl" x="472" y="123.0" text-anchor="end">Plecia a šija</text><text class="lbl-i" x="472" y="147.0" text-anchor="end">m. trapezius</text>
+          <circle class="dot" cx="289.6" cy="234.8" r="2.6"/><path class="lead-l" d="M289.6 234.8 H472"/><text class="lbl" x="472" y="227.8" text-anchor="end">Lopatka</text><text class="lbl-i" x="472" y="251.8" text-anchor="end">m. infraspinatus</text>
+          <circle class="dot" cx="248" cy="391.6" r="2.6"/><path class="lead-l" d="M248 391.6 H472"/><text class="lbl" x="472" y="384.6" text-anchor="end">Driek</text><text class="lbl-i" x="472" y="408.6" text-anchor="end">m. erector spinae</text>
+        </g>
+      </svg>
+      <figcaption><span>Obr. 1 — Svaly chrbta a šije, pohľad zozadu.</span><b>Ilustrácia</b></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="tab2" id="masaze" aria-labelledby="h-masaze">
+  <div class="c">
+    <p class="tabno"><span>Tab. II</span><span>Ponuka masáží</span></p>
+    <div class="tab2-g">
+      <div class="side">
+        <h2 id="h-masaze">Masáže <i>podľa času a potreby</i></h2>
+        <p>Päť masáží z aktuálnej ponuky na Zľavomate — od 20-minútovej reflexnej po 90-minútovú masáž lávovými kameňmi. Termín dohodnete telefonicky alebo e-mailom.</p>
+        <span class="voucher">Akcia na Zľavomate · ceny voucherov · platnosť 2 mesiace od nákupu</span><br>
+        <a class="act" href="https://www.zlavomat.sk/akcia/895662-fantasticke-masaze-reflexna-klasicka-bankovanie-ci-lavove-kamene" target="_blank" rel="noopener">Ponuka na Zľavomate ↗</a>
+      </div>
+      <div>
+        <div class="rows">
+          <div class="row"><h3>Reflexná masáž</h3><span class="min">20 min</span><span class="pr">12,90 €<s>pôvodne 15,00 €</s></span></div>
+          <div class="row"><h3>Klasická masáž chrbta</h3><span class="min">30 min</span><span class="pr">19,90 €<s>pôvodne 25,00 €</s></span></div>
+          <div class="row"><h3>Klasická masáž chrbta</h3><span class="min">50 min</span><span class="pr">24,90 €<s>pôvodne 30,00 €</s></span></div>
+          <div class="row"><h3>Bankovanie s masážou</h3><span class="min">60 min</span><span class="pr">32,90 €<s>pôvodne 35,00 €</s></span></div>
+          <div class="row"><h3>Masáž lávovými kameňmi</h3><span class="min">90 min</span><span class="pr">43,90 €<s>pôvodne 50,00 €</s></span></div>
+        </div>
+        <p class="fine">Akciové ceny voucherov podľa ponuky č. 895662 na Zľavomate (4. 10. 2026) — overiť. Bežný cenník salónu doplní podnik.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team" id="tim" aria-labelledby="h-tim">
+  <div class="c">
+    <p class="tabno"><span>Tab. III</span><span>Legenda</span></p>
+    <div class="team-g">
+      <div>
+        <h2 id="h-tim">Kto vás <i>ošetrí</i></h2>
+        <p class="t">ANK Massage a BodySense na jednej adrese. Terapeutické služby poskytujú dve fyzioterapeutky a vyškolený masér — so zameraním na prevenciu a riešenie problémov pohybového aparátu.</p>
+        <p class="small">Ukážka návrhu: predstavenie tímu a ich zamerania doplní podnik.</p>
+      </div>
+      <ul class="key">
+        <li><span class="k">i</span><h3>Fyzioterapeutka</h3></li>
+        <li><span class="k">ii</span><h3>Fyzioterapeutka</h3></li>
+        <li><span class="k">iii</span><h3>Vyškolený masér</h3></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="where" id="kontakt" aria-labelledby="h-kontakt">
+  <div class="c">
+    <h2 id="h-kontakt">Hodiny <i>a kontakt</i></h2>
+    <div class="where-g">
+      <div>
+        <p class="cap">Otváracie hodiny</p>
+        <table class="hrs">
+          <tr><td>Pondelok – piatok</td><td>16:00–21:00</td></tr>
+          <tr class="off"><td>Sobota – nedeľa</td><td>zatvorené</td></tr>
+        </table>
+        <p class="small">Podľa Zľavomatu (4. 10. 2026) — overiť.</p>
+      </div>
+      <div>
+        <p class="cap">Adresa</p>
+        <address>Námestie sv. Anny 355/15<br>911 01 Trenčín</address>
+        <a class="ln" href="https://www.google.com/maps/search/ANK+Massage+a+BodySense+Trenčín" target="_blank" rel="noopener">Otvoriť v Google Maps <span>↗</span></a>
+      </div>
+      <div>
+        <p class="cap">Telefón a e-mail</p>
+        <a class="ln big" href="tel:+421915407366">+421 915 407 366</a>
+        <a class="ln" href="tel:+421907441612">+421 907 441 612 <span>druhé číslo</span></a>
+        <a class="ln" href="mailto:ankmasaze@gmail.com">ankmasaze@gmail.com <span>ANK</span></a>
+        <a class="ln" href="mailto:physio.bodysense@gmail.com">physio.bodysense@gmail.com <span>BodySense</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="c"><span>Neoficiálny návrh webu · webdavid.sk · 2026</span><span>ANK Massage a BodySense · Trenčín</span></div></footer>
+
+<nav class="dock" aria-label="Rýchle akcie"><a href="tel:+421915407366">Zavolať</a><a href="https://www.google.com/maps/search/ANK+Massage+a+BodySense+Trenčín" target="_blank" rel="noopener">Mapa</a></nav>
